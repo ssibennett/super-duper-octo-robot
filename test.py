@@ -5,7 +5,8 @@ class HelloWorld():
         self.person = person
     
     def print(self):
-        ret = "Hello World! I'm %s." % (self.person,)
+        ret = "Hello World! I'm %s.\n" % (self.person,)
+        ret += "Goodbye, cruel world! I was %s." % (self.person,)
         return ret
 
 if __name__ == "__main__":
